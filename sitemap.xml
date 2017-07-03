@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://api.tapinambur.com/</loc>
+</url>
+<url>
+  <loc>http://api.tapinambur.com/cart</loc>
+</url>
+<url>
+  <loc>http://api.tapinambur.com/news/</loc>
+</url>
+<url>
+  <loc>http://api.tapinambur.com/apple/</loc>
+</url>
+<url>
+  <loc>http://api.tapinambur.com/google/</loc>
+</url>
+<url>
+  <loc>http://api.tapinambur.com/microsoft/</loc>
+</url>
+<url>
+  <loc>http://api.tapinambur.com/science/</loc>
+</url>
+<url>
+  <loc>http://api.tapinambur.com/cars/</loc>
+</url>
+<url>
+  <loc>http://api.tapinambur.com/apps/</loc>
+</url>
+<url>
+  <loc>http://api.tapinambur.com/donation/</loc>
+</url>
+<url>
+  <loc>http://api.tapinambur.com/version/</loc>
+</url>
+<url>
+  <loc>http://api.tapinambur.com/advertising/</loc>
+</url>
+<url>
+  <loc>http://api.tapinambur.com/cooperation/</loc>
+</url>
+<url>
+  <loc>http://api.tapinambur.com/about-us/</loc>
+</url>
+</urlset>

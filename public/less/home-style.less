@@ -1,0 +1,103 @@
+@import "style.less";
+#myContainer {
+padding: 5px 10px;
+background-color: #fff;
+h1 {
+color: #104E8B;
+}
+h2 {
+color: #FF7F00;
+text-align: center;
+a {
+color: inherit;
+transition: color 0.4s ease-in-out;
+&:hover {
+color: #102a60;
+}
+}
+}
+.image {
+width: 100%;
+min-height: 5vh;
+overflow: hidden;
+position: relative;
+img {
+width: 100%;
+border-radius: 5px;
+transition: opacity 0.4s ease-in-out;
+&:hover {
+opacity: 0.6;
+}
+}
+.date, .views {
+text-shadow: 2px 2px 4px #000000;
+position: absolute;
+color: #fff;
+bottom: 0;
+}
+.date {
+right: 10px;
+}
+.views {
+left: 10px;
+}
+}
+}
+#up {
+z-index: 10;
+right: 20px;
+bottom: 20px;
+display: none;
+color: #008B00;
+cursor: pointer;
+position: fixed;
+}
+/* Extra small devices (phones, less than 768px) */
+@media screen and (max-width: 767.9px) {
+#myContainer {
+width: 100%;
+margin: 55px auto 10px;
+h1 {
+text-align: center;
+}
+.row {
+margin: 0 -3px;
+}
+}
+#up {
+font-size: 3em;
+}
+}
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 991.9px) {
+#myContainer {
+width: 90%;
+margin: 65px auto 20px;
+border-radius: 5px;
+}
+#up {
+font-size: 3em;
+}
+}
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width: 1199.9px) {
+#myContainer {
+width: 90%;
+margin: 65px auto 20px;
+border-radius: 5px;
+}
+#up {
+font-size: 3.5em;
+}
+}
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+#myContainer {
+width: 90%;
+margin: 65px auto 20px;
+border-radius: 5px;
+}
+#up {
+font-size: 4.5em;
+}
+}
