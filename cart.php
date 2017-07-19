@@ -38,6 +38,7 @@ include_once($_SERVER['DOCUMENT_ROOT'].'/app/header.php');
 <button class="btn btn-facebook">Увійти за допомогою Facebook</button>
 </div>
 <?php endif; ?>
+<?php if ($articles): ?>
 <h3>Допоможіть нам перекласти одну з наступних статей</h3>
 <div class="row masonry" data-columns>
 <?php foreach ($articles as $item): ?>
@@ -51,6 +52,7 @@ include_once($_SERVER['DOCUMENT_ROOT'].'/app/header.php');
 </div>
 <?php endforeach; ?>
 </div>
+<?php endif; ?>
 </div>
 </div>
 </div>

@@ -39,6 +39,7 @@ if (isset($_COOKIE["name"]) && isset($_COOKIE["social_id"])) {
 <?php else: ?>
 <p>Ви не маєте збережених ключів</p>
 <?php endif; ?>
+<?php if ($articles): ?>
 <hr/>
 <h3>Допоможіть нам перекласти одну з наступних статей</h3>
 <div class="row masonry" data-columns>
@@ -53,6 +54,7 @@ if (isset($_COOKIE["name"]) && isset($_COOKIE["social_id"])) {
 </div>
 <?php endforeach; ?>
 </div>
+<?php endif; ?>
 </div>
 <?php include_once($_SERVER['DOCUMENT_ROOT'].'/app/footer.php'); ?>
 <script>

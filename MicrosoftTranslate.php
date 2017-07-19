@@ -1,5 +1,5 @@
 <?php
-    $azure_key = "4c530502bced419f8342d87a70f4b9b7";
+    $azure_key = "fb5e866046de4193bd91b9154475515b";
     $fromLanguage = "en";
     $toLanguage = "uk";
     $inputStr = $_POST["text"];

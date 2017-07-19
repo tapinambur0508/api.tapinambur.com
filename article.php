@@ -7,19 +7,21 @@ if ($article) {
     $style_less=array("article-style.less");
     $style_css=array("masonry-small.css");
     $meta = '
-<meta property="og:url" content="'.$_SERVER["HTTP_HOST"].''.$_SERVER["REQUEST_URI"].'"/>
+<meta property="og:url" content="http://'.$_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"].'"/>
 <meta property="og:title" content="'.$title.'" />
 <meta property="og:description" content="'.$article["header"].'"/>
-<meta property="og:image" content="'.$article["cover_image"].'"/>
+<meta property="og:image" content="'.$article["image"].'"/>
+<meta property="og:image:width" content="600"/>
+<meta property="og:image:height" content="315"/>
 <meta property="og:site_name" content="tapinambur API"/>
 <meta property="fb:app_id" content="1886523204902308"/>
 <meta property="fb:admins" content="100002982444589"/>
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:url" content="'.$_SERVER["HTTP_HOST"].''.$_SERVER["REQUEST_URI"].'"/>
-<meta itemprop="image" content="'.$article["cover_image"].'"/>
+<meta name="twitter:url" content="http://'.$_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"].'"/>
+<meta itemprop="image" content="'.$article["image"].'"/>
 <meta itemprop="name" content="tapinambur API"/>
 <meta itemprop="description" content="'.$article["header"].'"/>
-<meta itemprop="image" content="'.$article["cover_image"].'"/>';
+<meta itemprop="image" content="'.$article["image"].'"/>';
     include_once($_SERVER['DOCUMENT_ROOT'].'/app/header.php');
     $ip = $_SERVER["REMOTE_ADDR"];
     $browser = $_SERVER['HTTP_USER_AGENT'];
@@ -40,7 +42,6 @@ if ($article) {
 <button class="btn btn-block" name="set-to-cart" data-id="<?=$article['id']; ?>"></button>
 <!-- AddToAny BEGIN -->
 <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
 <a class="a2a_button_facebook"></a>
 <a class="a2a_button_twitter"></a>
 <a class="a2a_button_google_plus"></a>

@@ -2,7 +2,6 @@ Host: www.api.tapinambur.com
 User-Agent: *
 Disallow: /MicrosoftTranslate.php
 Disallow: /preview-article.php
-Disallow: /article.php
 Disallow: /sandbox.php
 Disallow: /login.php
 Disallow: /404.php
